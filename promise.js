@@ -5,10 +5,10 @@ const promiseOutput = async (emosi) => {
   try {
     let a = await promiseTheaterIXX();
     let b = await promiseTheaterVGC();
-    let combine = a.concat(b);
+    let gabung = a.concat(b);
     let result = 0;
 
-    combine.map((a) => a.hasil === emosi && (result += 1));
+    gabung.map((c) => c.hasil === emosi && (result += 1));
 
     return result;
   } catch (err) {
